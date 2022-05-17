@@ -1,0 +1,30 @@
+{
+  "name": "riverviewresidences.es",
+  "version": "1.0.0",
+  "description": "This is a website for the residential development Riverview Residences by Ayamonte Homes",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaGov/riverviewresidences.es.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaGov/riverviewresidences.es/issues"
+  },
+  "homepage": "https://github.com/AnnaGov/riverviewresidences.es#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

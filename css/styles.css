@@ -1,0 +1,34 @@
+
+
+
+.navbar {
+    height: 300px;
+}
+
+.navbar-logo {
+    position: relative;
+    width: 100px;
+    background-size: contain;
+}
+
+.col-features {
+   height: 100px;
+}
+
+
+
+.devision-div {
+    height: 100px;
+    background-color: #bab5a9;
+}
+
+/* Newsletter */
+
+.media-body {
+    padding: 15px;
+}
+
+.image-form {
+    position: relative;
+    max-width: 40%;
+}
