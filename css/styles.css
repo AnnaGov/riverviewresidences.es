@@ -1,25 +1,27 @@
 
-
-
-.navbar {
-    height: 300px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: 	#5b5b5b;
 }
 
-.navbar-logo {
-    position: relative;
-    width: 100px;
-    background-size: contain;
+.navbar {
+    background-color: #bab5a9;
+}
+
+#header-nav {
+    background-image: url(../images/living_kitchen_view_dark.jpg);
+    background-size: cover;
+    min-height: 500px;
 }
 
 .col-features {
-   height: 100px;
+    position: relative;
+    height: 180px;
 }
 
-
-
 .devision-div {
-    height: 100px;
     background-color: #bab5a9;
+
 }
 
 /* Newsletter */
@@ -30,5 +32,31 @@
 
 .image-form {
     position: relative;
-    max-width: 40%;
+    max-width: 100%;
 }
+
+/* Footer */
+
+#site-footer {
+    background-color: #bab5a9;
+    color: white;
+    font-size: 0.8rem;
+}
+
+#site-footer .fa {
+    color: white;
+}
+
+#site-footer .fa:hover {
+    color: #5b5b5b;
+    opacity: 0.7;
+  }
+
+
+/* Gallery */
+
+.carousel-inner img {
+    min-height : 300px;
+    max-height : 300px;
+    width : 100%;
+  }
