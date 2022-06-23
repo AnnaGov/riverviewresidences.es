@@ -19,20 +19,21 @@ body {
     height: 180px;
 }
 
-.devision-div {
+.division-div {
     background-color: #bab5a9;
-
 }
 
-/* Newsletter */
+/* Contact Form and Map */
 
-.media-body {
-    padding: 15px;
+.contact-form {
+    background-image: url(../images/views-signup2.jpg);
+    background-size: cover;
+    background-color: #bab5a9;
+    min-height: 300px;
 }
 
-.image-form {
-    position: relative;
-    max-width: 100%;
+.map {
+    background-color: #bab5a9;
 }
 
 /* Footer */
@@ -54,9 +55,23 @@ body {
 
 
 /* Gallery */
+.carousel-control-prev {
+    border: none;
+    background-color: transparent;
+}
 
-.carousel-inner img {
-    min-height : 300px;
-    max-height : 300px;
-    width : 100%;
+.carousel-control-next {
+    border: none;
+    background-color: transparent;
+}
+
+/* Location */
+
+.loc-features {
+    position: relative;
+    height: 240px;
+  }
+
+.loc-features p {
+    font-size: 0.8rem;
   }
